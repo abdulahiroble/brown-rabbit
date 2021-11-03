@@ -12,13 +12,225 @@
     <title>Brown rabbit</title>
   </head>
   <body class="font-serif">
-    <!-- Slideshow container -->
+    <div class="mx-0 2xl:mx-44">
+      <div
+        class="
+          bg-black
+          text-white
+          p-10
+          pb-20
+          sm:pb-40
+          text-xl
+          w-full
+          flex
+          justify-between
+        "
+      >
+        <div>
+          <img src="/assets/logo-white.png" alt="" />
+        </div>
+
+        <div class="flex flex-col">
+          <div class="grid grid-cols-2 gap-4 mb-10">
+            <div class="justify-self-center">
+              <div class="grid grid-cols-2 gap-4 ml-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16.899"
+                  height="16.192"
+                  viewBox="0 0 16.899 16.192"
+                >
+                  <g
+                    id="search"
+                    transform="translate(-162.837 -45.603)"
+                    fill="none"
+                  >
+                    <path
+                      d="M174.787,57.552a6.993,6.993,0,1,1,.657-.757l4.292,4.293-.706.707Z"
+                      stroke="none"
+                    />
+                    <path
+                      d="M 169.8372039794922 58.60295104980469 C 171.4397735595703 58.60295104980469 172.9465942382812 57.97870254516602 174.0800933837891 56.8452033996582 L 174.3862609863281 56.53902053833008 L 174.6438293457031 56.19544219970703 C 175.5008087158203 55.05228424072266 175.9197540283203 53.63264083862305 175.8235015869141 52.19804382324219 C 175.7263793945312 50.75037384033203 175.1072235107422 49.38743209838867 174.0800933837891 48.36030197143555 C 172.9465942382812 47.22680282592773 171.4397735595703 46.60255432128906 169.8372039794922 46.60255432128906 C 168.2346496582031 46.60255432128906 166.7278137207031 47.22680282592773 165.5943145751953 48.36031341552734 C 164.4612426757812 49.49338150024414 163.8372344970703 51.00004196166992 163.8372344970703 52.60275268554688 C 163.8372344970703 54.20546340942383 164.4612426757812 55.71212387084961 165.5943145751953 56.84519195556641 C 166.7278137207031 57.97870254516602 168.2346496582031 58.60295104980469 169.8372039794922 58.60295104980469 M 179.0298004150391 61.79490280151367 L 174.7872009277344 57.55230331420898 C 173.4201049804688 58.91940307617188 171.6286468505859 59.60295104980469 169.8372039794922 59.60295104980469 C 168.0457611083984 59.60295104980469 166.2543029785156 58.91940307617188 164.88720703125 57.55230331420898 C 162.1539001464844 54.81900405883789 162.1539001464844 50.38650131225586 164.88720703125 47.65320205688477 C 166.2543029785156 46.28610229492188 168.0457611083984 45.60255432128906 169.8372039794922 45.60255432128906 C 171.6286468505859 45.60255432128906 173.4201049804688 46.28610229492188 174.7872009277344 47.65320205688477 C 177.2804412841797 50.14643096923828 177.4992218017578 54.05368423461914 175.4439544677734 56.79527282714844 L 179.7362976074219 61.08840179443359 L 179.0298004150391 61.79490280151367 Z"
+                      stroke="none"
+                      fill="#fff"
+                    />
+                  </g>
+                </svg>
+                <!-- <input
+                  class="text-white bg-black ml-0 sm:-ml-24"
+                  type="text"
+                  id="mySearch"
+                  onkeyup="myFunction()"
+                />
+
+                <ul id="myMenu">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">jQuery</a></li>
+                  <li><a href="#">SQL</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">Node.js</a></li>
+                </ul> -->
+                <div class="max-w-6xl mx-auto ml-5 -mt-1">
+                  <div class="flex justify-between">
+                    <div class="flex space-x-7">
+                      <!-- Primary Navbar items -->
+                      <div class="hidden flex items-center space-x-1">
+                        <a
+                          href=""
+                          class="py-4 px-2 text-green-500 font-semibold"
+                          >About us</a
+                        >
+                        <a href="" class="py-4 px-2 text-gray-500 font-semibold"
+                          >Events</a
+                        >
+                        <a href="" class="py-4 px-2 text-gray-500 font-semibold"
+                          >Roaster</a
+                        >
+                        <a
+                          href=""
+                          class="
+                            py-4
+                            px-2
+                            text-gray-500
+                            font-semibold
+                            transition
+                            duration-300
+                          "
+                          >Results</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden flex items-center">
+                      <button class="outline-none mobile-menu-button">
+                        <svg
+                          class="w-6 h-6 text-gray-500"
+                          x-show="!showMenu"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- mobile menu -->
+                <div class="hidden mobile-menu">
+                  <ul class="">
+                    <li>
+                      <a
+                        href="index.html"
+                        class="block text-sm px-2 py-4 text-white font-semibold"
+                        >Home</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#services" class="block text-sm px-2 py-4"
+                        >Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#about" class="block text-sm px-2 py-4">About</a>
+                    </li>
+                    <li>
+                      <a href="#contact" class="block text-sm px-2 py-4"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="hidden sm:grid grid-cols-4">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.573"
+                  height="15.573"
+                  viewBox="0 0 15.573 15.573"
+                >
+                  <path
+                    id="linkedin"
+                    d="M3.486,15.583H.257V5.186H3.486ZM1.87,3.767A1.879,1.879,0,1,1,3.74,1.88,1.886,1.886,0,0,1,1.87,3.767Zm13.7,11.815H12.348V10.522c0-1.206-.024-2.753-1.679-2.753-1.679,0-1.936,1.311-1.936,2.666v5.148H5.508V5.186H8.6V6.6H8.65A3.393,3.393,0,0,1,11.7,4.925c3.268,0,3.868,2.152,3.868,4.947v5.711Z"
+                    transform="translate(0 -0.01)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.576"
+                  height="15.573"
+                  viewBox="0 0 15.576 15.573"
+                >
+                  <path
+                    id="instagram"
+                    d="M7.715,35.619a3.993,3.993,0,1,0,3.993,3.993A3.986,3.986,0,0,0,7.715,35.619Zm0,6.588a2.6,2.6,0,1,1,2.6-2.6,2.6,2.6,0,0,1-2.6,2.6ZM12.8,35.455a.931.931,0,1,1-.931-.931A.929.929,0,0,1,12.8,35.455Zm2.644.945a4.609,4.609,0,0,0-1.258-3.263,4.639,4.639,0,0,0-3.263-1.258c-1.286-.073-5.139-.073-6.425,0a4.632,4.632,0,0,0-3.263,1.254A4.624,4.624,0,0,0-.02,36.4c-.073,1.286-.073,5.139,0,6.425a4.609,4.609,0,0,0,1.258,3.263A4.645,4.645,0,0,0,4.5,47.343c1.286.073,5.139.073,6.425,0a4.609,4.609,0,0,0,3.263-1.258,4.639,4.639,0,0,0,1.258-3.263C15.52,41.537,15.52,37.686,15.447,36.4Zm-1.661,7.8a2.628,2.628,0,0,1-1.48,1.48,17.162,17.162,0,0,1-4.59.313,17.3,17.3,0,0,1-4.59-.313,2.628,2.628,0,0,1-1.48-1.48,17.162,17.162,0,0,1-.313-4.59,17.3,17.3,0,0,1,.313-4.59,2.628,2.628,0,0,1,1.48-1.48,17.162,17.162,0,0,1,4.59-.313,17.3,17.3,0,0,1,4.59.313,2.628,2.628,0,0,1,1.48,1.48,17.163,17.163,0,0,1,.313,4.59A17.153,17.153,0,0,1,13.786,44.2Z"
+                    transform="translate(0.075 -31.825)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8.341"
+                  height="15.573"
+                  viewBox="0 0 8.341 15.573"
+                >
+                  <path
+                    id="facebook"
+                    d="M30.684,8.76l.433-2.818h-2.7V4.113A1.409,1.409,0,0,1,30,2.59h1.229V.19A14.992,14.992,0,0,0,29.048,0a3.441,3.441,0,0,0-3.683,3.793V5.941H22.89V8.76h2.476v6.813h3.047V8.76Z"
+                    transform="translate(-22.89)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19.174"
+                  height="15.573"
+                  viewBox="0 0 19.174 15.573"
+                >
+                  <path
+                    id="twitter"
+                    d="M17.2,51.963c.012.17.012.341.012.511A11.1,11.1,0,0,1,6.034,63.655,11.105,11.105,0,0,1,0,61.891a8.13,8.13,0,0,0,.949.049A7.87,7.87,0,0,0,5.828,60.26a3.937,3.937,0,0,1-3.674-2.725A4.955,4.955,0,0,0,2.9,57.6a4.156,4.156,0,0,0,1.034-.134A3.93,3.93,0,0,1,.779,53.606v-.049a3.958,3.958,0,0,0,1.776.5A3.936,3.936,0,0,1,1.338,48.8a11.17,11.17,0,0,0,8.1,4.112,4.436,4.436,0,0,1-.1-.9,3.933,3.933,0,0,1,6.8-2.689,7.737,7.737,0,0,0,2.494-.949,3.919,3.919,0,0,1-1.728,2.166,7.878,7.878,0,0,0,2.263-.608A8.447,8.447,0,0,1,17.2,51.963Z"
+                    transform="translate(0 -48.082)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden lg:grid grid-cols-6 gap-2">
+            <div class="hover:underline">About us</div>
+            <div class="hover:underline">Events</div>
+            <div class="hover:underline">Roaster</div>
+            <div class="hover:underline">Results</div>
+            <div class="hover:underline">Links</div>
+            <div class="hover:underline">Contact</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade flex mb-32">
+      <div class="mySlides fade flex mb-64 -mt-20 sm:mb-44">
         <img
           src="/assets/albert-s-FkNfVgHVzkI-unsplash.jpg"
-          class="w-full max-h-96"
+          class="w-full max-h-screen"
         />
         <div
           class="
@@ -40,10 +252,10 @@
         </div>
       </div>
 
-      <div class="mySlides fade mb-32">
+      <div class="mySlides fade mb-64 -mt-20 sm:mb-44">
         <img
-          src="/assets/albert-s-FkNfVgHVzkI-unsplash.jpg"
-          class="w-full max-h-96"
+          src="/assets/john-schnobrich-ydju9gb6fiI-unsplash.jpg"
+          class="w-full max-h-screen"
         />
         <div
           class="
@@ -65,10 +277,10 @@
         </div>
       </div>
 
-      <div class="mySlides fade mb-32">
+      <div class="mySlides fade mb-64 -mt-20 sm:mb-44">
         <img
-          src="/assets/albert-s-FkNfVgHVzkI-unsplash.jpg"
-          class="w-full max-h-96"
+          src="/assets/harry-brewer-irDJy_7lkWk-unsplash.jpg"
+          class="w-full max-h-screen"
         />
         <div
           class="
@@ -90,9 +302,46 @@
         </div>
       </div>
       <!-- Next and previous buttons -->
-      <div class="md:flex justify-end text-2xl cursor-pointer">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="md:flex justify-end text-2xl cursor-pointer -mt-24">
+        <svg
+          class="prev"
+          onclick="plusSlides(-1)"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30.471"
+          height="30.471"
+          viewBox="0 0 30.471 30.471"
+        >
+          <path
+            id="Path_10"
+            data-name="Path 10"
+            d="M0,0H20.546V20.546"
+            transform="translate(15.943 29.764) rotate(-135)"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+        <svg
+          class="next"
+          onclick="plusSlides(1)"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30.471"
+          height="30.471"
+          viewBox="0 0 30.471 30.471"
+        >
+          <path
+            id="Path_9"
+            data-name="Path 9"
+            d="M0,0H20.546V20.546"
+            transform="translate(14.529 0.707) rotate(45)"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+
+        <a class="prev visible sm:hidden" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next visible sm:hidden" onclick="plusSlides(1)">&#10095;</a>
       </div>
     </div>
     <br />
@@ -136,11 +385,56 @@
                 hover:bg-black hover:text-white
               "
             >
-              <button class="border-black font-medium p-2">Read more</button>
+              <button id="modal-btn" class="border-black font-medium p-2">
+                Read more
+              </button>
             </div>
           </div>
         </div>
+        <div class="modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img
+              class="w-full max-h-60"
+              src="/assets/bobotaks-kTATJGIbtOE-unsplash.jpg"
+              alt=""
+            />
+            <div class="text-xl font-bold">Wonderful Copenhagen 2021</div>
+            <div class="my-3 text-gray-400">Published 12/07/2021</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam
+              vero optio a ex natus, libero sapiente iure praesentium. Nihil
+              quisquam magni vero fugiat amet consequuntur dolores in voluptatum
+              maxime! <br /><br />
 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              architecto iste tempore! Nobis laborum, atque mollitia
+              voluptatibus doloremque ab dolores placeat provident nulla magni
+              animi hic dolor ipsum accusantium tempora.
+
+              <br /><br />
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              architecto iste tempore! Nobis laborum, atque mollitia
+              voluptatibus doloremque ab dolores placeat provident nulla magni
+              animi hic dolor ipsum accusantium tempora.
+
+              <br /><br />
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              architecto iste tempore! Nobis laborum, atque mollitia
+              voluptatibus doloremque ab dolores placeat provident nulla magni
+              animi hic dolor ipsum accusantium tempora.
+
+              <br /><br />
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              architecto iste tempore! Nobis laborum, atque mollitia
+              voluptatibus doloremque ab dolores placeat provident nulla magni
+              animi hic dolor ipsum accusantium tempora.
+            </div>
+          </div>
+        </div>
         <div class="flex flex-col sm:flex-row">
           <div class="mt-10">
             <img
@@ -177,11 +471,12 @@
                 hover:bg-black hover:text-white
               "
             >
-              <button class="border-black font-medium p-2">Read more</button>
+              <button id="modal-btn" class="border-black font-medium p-2">
+                Read more
+              </button>
             </div>
           </div>
         </div>
-
         <div class="flex flex-col sm:flex-row">
           <div class="mt-10">
             <img
@@ -314,6 +609,165 @@
               <span class="block ...">2021 - Turkey</span>
               <span class="block ...">2021 - Italy</span>
               <span class="block ...">2021 - Germany</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 text-center text-2xl mx-5 lg:mx-28 xl:mx-44">
+      <div class="mb-10">World Barista Cup Sponsors</div>
+      <div class="grid grid-cols-3 sm:grid-cols-10 justify-items-center">
+        <div><img src="/assets/sponsor-1.png" alt="" /></div>
+        <div><img src="/assets/sponsor-2.png" alt="" /></div>
+        <div><img src="/assets/sponsor-3.png" alt="" /></div>
+        <div><img src="/assets/sponsor-4.png" alt="" /></div>
+        <div><img src="/assets/sponsor-5.png" alt="" /></div>
+        <div><img src="/assets/sponsor-6.png" alt="" /></div>
+        <div><img src="/assets/sponsor-7.png" alt="" /></div>
+        <div><img src="/assets/sponsor-8.png" alt="" /></div>
+        <div><img src="/assets/sponsor-9.png" alt="" /></div>
+        <div><img src="/assets/sponsor-10.png" alt="" /></div>
+        <div><img src="/assets/sponsor-11.png" alt="" /></div>
+        <div><img src="/assets/sponsor-12.png" alt="" /></div>
+        <div><img src="/assets/sponsor-13.png" alt="" /></div>
+        <div><img src="/assets/sponsor-14.png" alt="" /></div>
+        <div><img src="/assets/sponsor-15.png" alt="" /></div>
+        <div><img src="/assets/sponsor-16.png" alt="" /></div>
+        <div><img src="/assets/sponsor-17.png" alt="" /></div>
+        <div><img src="/assets/sponsor-18.png" alt="" /></div>
+        <div><img src="/assets/sponsor-19.png" alt="" /></div>
+        <div><img src="/assets/sponsor-20.png" alt="" /></div>
+        <div><img src="/assets/sponsor-40.png" alt="" /></div>
+        <div><img src="/assets/sponsor-41.png" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="mx-0 mt-10 bg-black p-10 pb-40 2xl:mx-44">
+      <div class="p-0 sm:p-10">
+        <div
+          class="
+            text-white text-xl
+            w-full
+            flex flex-col
+            lg:flex-row
+            justify-between
+          "
+        >
+          <div class="mx-auto lg:mx-0">
+            <img src="/assets/logo-white.png" alt="" />
+          </div>
+
+          <div class="mt-5 lg:mt-0 mx-auto lg:mx-0">
+            <div class="grid grid-cols-4 gap-4">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.573"
+                  height="15.573"
+                  viewBox="0 0 15.573 15.573"
+                >
+                  <path
+                    id="linkedin"
+                    d="M3.486,15.583H.257V5.186H3.486ZM1.87,3.767A1.879,1.879,0,1,1,3.74,1.88,1.886,1.886,0,0,1,1.87,3.767Zm13.7,11.815H12.348V10.522c0-1.206-.024-2.753-1.679-2.753-1.679,0-1.936,1.311-1.936,2.666v5.148H5.508V5.186H8.6V6.6H8.65A3.393,3.393,0,0,1,11.7,4.925c3.268,0,3.868,2.152,3.868,4.947v5.711Z"
+                    transform="translate(0 -0.01)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.576"
+                  height="15.573"
+                  viewBox="0 0 15.576 15.573"
+                >
+                  <path
+                    id="instagram"
+                    d="M7.715,35.619a3.993,3.993,0,1,0,3.993,3.993A3.986,3.986,0,0,0,7.715,35.619Zm0,6.588a2.6,2.6,0,1,1,2.6-2.6,2.6,2.6,0,0,1-2.6,2.6ZM12.8,35.455a.931.931,0,1,1-.931-.931A.929.929,0,0,1,12.8,35.455Zm2.644.945a4.609,4.609,0,0,0-1.258-3.263,4.639,4.639,0,0,0-3.263-1.258c-1.286-.073-5.139-.073-6.425,0a4.632,4.632,0,0,0-3.263,1.254A4.624,4.624,0,0,0-.02,36.4c-.073,1.286-.073,5.139,0,6.425a4.609,4.609,0,0,0,1.258,3.263A4.645,4.645,0,0,0,4.5,47.343c1.286.073,5.139.073,6.425,0a4.609,4.609,0,0,0,3.263-1.258,4.639,4.639,0,0,0,1.258-3.263C15.52,41.537,15.52,37.686,15.447,36.4Zm-1.661,7.8a2.628,2.628,0,0,1-1.48,1.48,17.162,17.162,0,0,1-4.59.313,17.3,17.3,0,0,1-4.59-.313,2.628,2.628,0,0,1-1.48-1.48,17.162,17.162,0,0,1-.313-4.59,17.3,17.3,0,0,1,.313-4.59,2.628,2.628,0,0,1,1.48-1.48,17.162,17.162,0,0,1,4.59-.313,17.3,17.3,0,0,1,4.59.313,2.628,2.628,0,0,1,1.48,1.48,17.163,17.163,0,0,1,.313,4.59A17.153,17.153,0,0,1,13.786,44.2Z"
+                    transform="translate(0.075 -31.825)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8.341"
+                  height="15.573"
+                  viewBox="0 0 8.341 15.573"
+                >
+                  <path
+                    id="facebook"
+                    d="M30.684,8.76l.433-2.818h-2.7V4.113A1.409,1.409,0,0,1,30,2.59h1.229V.19A14.992,14.992,0,0,0,29.048,0a3.441,3.441,0,0,0-3.683,3.793V5.941H22.89V8.76h2.476v6.813h3.047V8.76Z"
+                    transform="translate(-22.89)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19.174"
+                  height="15.573"
+                  viewBox="0 0 19.174 15.573"
+                >
+                  <path
+                    id="twitter"
+                    d="M17.2,51.963c.012.17.012.341.012.511A11.1,11.1,0,0,1,6.034,63.655,11.105,11.105,0,0,1,0,61.891a8.13,8.13,0,0,0,.949.049A7.87,7.87,0,0,0,5.828,60.26a3.937,3.937,0,0,1-3.674-2.725A4.955,4.955,0,0,0,2.9,57.6a4.156,4.156,0,0,0,1.034-.134A3.93,3.93,0,0,1,.779,53.606v-.049a3.958,3.958,0,0,0,1.776.5A3.936,3.936,0,0,1,1.338,48.8a11.17,11.17,0,0,0,8.1,4.112,4.436,4.436,0,0,1-.1-.9,3.933,3.933,0,0,1,6.8-2.689,7.737,7.737,0,0,0,2.494-.949,3.919,3.919,0,0,1-1.728,2.166,7.878,7.878,0,0,0,2.263-.608A8.447,8.447,0,0,1,17.2,51.963Z"
+                    transform="translate(0 -48.082)"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-white my-10"><hr /></div>
+        <div
+          class="
+            flex flex-col
+            text-center
+            sm:text-left
+            justify-between
+            sm:flex-row
+            text-white
+          "
+        >
+          <div class="flex flex-col">
+            <div class="text-xl">Aboout World Barista Cup</div>
+            <div class="my-3 text-gray-700">
+              The vision withon The World Barista Cup
+            </div>
+            <div class="w-64">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+              libero quisquam. Illum dignissimos iste vel soluta inventore
+              repudiandae modi illo deserunt ab ullam voluptas ad id dicta
+              fugiat, similique veniam?
+            </div>
+          </div>
+          <div class="flex flex-col my-10 sm:my-0">
+            <div class="text-xl mb-3">Instagram feed</div>
+            <div class="grid grid-cols-3 gap-4">
+              <div><img src="/assets/instagram-image-1.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-2.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-3.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-4.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-5.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-6.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-7.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-8.png" alt="" /></div>
+              <div><img src="/assets/instagram-image-9.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <div class="text-xl mb-3">Contact</div>
+            <div>World Barista cup</div>
+            <div class="text-gray-500">
+              <div>Amagertorv 13</div>
+              <div>1160 Copenhagen K</div>
+              <div>+45 33 12 04 28</div>
+              <div>CVR: 11427693</div>
+              <div>Email: info@wordlbaristacup.com</div>
             </div>
           </div>
         </div>

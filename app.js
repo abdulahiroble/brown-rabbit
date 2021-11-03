@@ -1,3 +1,51 @@
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+
+
+const btn = document.querySelector(
+    "button.mobile-menu-button"
+);
+const menu = document.querySelector(".mobile-menu");
+
+btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+});
+
+
+
+let modalBtn = document.getElementById("modal-btn")
+let modal = document.querySelector(".modal")
+let closeBtn = document.querySelector(".close-btn")
+modalBtn.onclick = function () {
+    modal.style.display = "block"
+}
+closeBtn.onclick = function () {
+    modal.style.display = "none"
+}
+window.onclick = function (e) {
+    if (e.target == modal) {
+        modal.style.display = "none"
+    }
+}
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +74,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
